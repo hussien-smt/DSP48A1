@@ -16,8 +16,8 @@ A synthesizable Verilog implementation of the **Xilinx DSP48A1** slice. This mod
 This design successfully synthesizes in AMD Xilinx Vivado and **fully meets timing constraints** with zero errors.
 
 ### ⏱️ Timing
-* **Worst Negative Slack (WNS):** 4.762 ns (Passed ✅)
-* **Worst Hold Slack (WHS):** 0.140 ns (Passed ✅)
+* **Worst Negative Slack (WNS):** 4.762 ns (Passed )
+* **Worst Hold Slack (WHS):** 0.140 ns (Passed )
 * **Failing Endpoints:** 0
 
 ###  Resource Utilization
