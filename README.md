@@ -4,14 +4,14 @@ A synthesizable Verilog implementation of the **Xilinx DSP48A1** slice. This mod
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 * **Configurable Pipelining:** Turn internal register stages on/off using parameters to optimize speed or latency.
 * **Dynamic Control:** Use the 8-bit `OPMODE` input to change how data flows through the multipliers and adders on the fly.
 * **Cascading Support:** Includes `BCIN`/`BCOUT` and `PCIN`/`PCOUT` to easily chain multiple DSP blocks together (great for FIR filters).
 
 ---
 
-## 📊 Vivado Synthesis & Timing Results
+##  Vivado Synthesis & Timing Results
 
 This design successfully synthesizes in AMD Xilinx Vivado and **fully meets timing constraints** with zero errors.
 
@@ -20,14 +20,14 @@ This design successfully synthesizes in AMD Xilinx Vivado and **fully meets timi
 * **Worst Hold Slack (WHS):** 0.140 ns (Passed ✅)
 * **Failing Endpoints:** 0
 
-### 🏗️ Resource Utilization
+###  Resource Utilization
 * **Slice LUTs:** 237
 * **Slice Registers:** 180
 * **DSPs Used:** 1
 
 ---
 
-## 🧪 Simulation & Verification
+## Simulation & Verification
 
 The project includes a **self-checking testbench** (`DSP_tb.v`) that automatically verifies the resets and various arithmetic operational pathways.
 
